@@ -20,4 +20,8 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" for the number 15' do
     expect(15.fizzbuzz).to eq 'fizzbuzz'
   end
+
+  it 'returns "fizzbuzz" for multiples of the numbers 3 and 5' do
+    expect(30.fizzbuzz).to eq 'fizzbuzz'
+  end
 end
