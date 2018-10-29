@@ -11,3 +11,5 @@ def fizzbuzz
     self
   end
 end
+
+(1..100).each {|number| puts "#{number} --> #{number.fizzbuzz}"}
