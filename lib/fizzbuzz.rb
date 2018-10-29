@@ -1,7 +1,7 @@
 public
 
 def fizzbuzz
-  if self == 3
+  if self % 3 == 0
     'fizz'
   else
     self

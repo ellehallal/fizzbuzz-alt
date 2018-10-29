@@ -4,4 +4,8 @@ describe 'fizzbuzz' do
   it 'returns "fizz" for the number 3' do
     expect(3.fizzbuzz).to eq 'fizz'
   end
+
+  it 'returns "fizz" for multiples of the number 3' do
+    expect(6.fizzbuzz).to eq 'fizz'
+  end
 end
