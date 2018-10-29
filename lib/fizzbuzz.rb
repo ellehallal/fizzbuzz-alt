@@ -3,8 +3,8 @@ public
 def fizzbuzz
   if self % 3 == 0
     'fizz'
-  elsif self == 5
-    'buzz'    
+  elsif self % 5 == 0
+    'buzz'
   else
     self
   end
